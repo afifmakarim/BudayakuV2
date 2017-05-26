@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Papua"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="4sp"
+            android:text="Seni Kebudayaan Tradisional Daerah Papua Indonesia - Provinsi Papua yang terletak di ujung timur negara Indonesia memiliki banyak kebudayaan yang unik dan menarik. kita kenal kebudayaan Papua sebagai salah satu kekayaan budaya indonesia seperti alat musik tradisionalnya, Tarian Tradisional dan kesenian lainnya yang terdapat di Papua."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Rumah Adat"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="202dp"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_alignTop="@+id/textView4"
+            app:srcCompat="@drawable/rumahadat_papua" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="4sp"
+            android:text="Salah satu contoh rumah adat Papua dinamakan Honai. Honai merupakan rumah adat Papua yang dihuni oleh suku Dani. Rumah tersebut terdiri dari dua lantai yaitu lantai pertama sebagai tempat tidur dan lantai kedua untuk tempat bersantai, makan dan mengerjakan kerajinan tangan. Pintu Honai amat kecil, tanpa jendela dan atapnya terbuat dari rumput lalang."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView11"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="Pakaian Adat"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_alignTop="@+id/textView4"
+            app:srcCompat="@drawable/pakaianadat_papua" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView7"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="4sp"
+            android:text="Pria Papua mengenakan pakaian adat berupa hiasan kepala, kalung yang terbuat dari gigi dan tulang hewan, kalung dari kerang, ikat pinggang dan sarung yang berumbai rumbai. Tombak beserta, tameng dengan hiasan yang khas ikut menyertai pakaian adatnya. Wanitanya memakai kalung dari kerang dan gigi binatang, hiasan pada lengan serta pakaian berumbai rumbai."
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
